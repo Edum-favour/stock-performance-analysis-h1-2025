@@ -1,2 +1,7 @@
-# stock-performance-analysis-h1-2025
-![Dashboard](https://github.com/user-attachments/assets/4d13f7fd-6109-4b19-96b8-3e4ab29bfeba)
+# 📈Stock-Performance-Analysis-H1-2025
+A python-powered interactive dashboard for analyzing **S&P 500 stock performance in H1 2025**, built using real-time data from Yahoo Finance and Dividend Aristocrats. Includes strategy segmentation, custom scoring, risk-return visulaization, and performance snapshots.  
+## Objective
+To provide investors with a clear, data-driven view of how different stocks performed in the first half of 2025, based on their investment goals, using:
+- 📊 Historical price trend
+- 💵 Dividend performance
+- ✅ Strategy based filtering
