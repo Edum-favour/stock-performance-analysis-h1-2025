@@ -16,7 +16,7 @@ To provide investors with a clear, data-driven view of how different stocks perf
 - **Jupyter Notebook** (Exploratory analysis)
 - **Git & GitHub** (Version control)
 ## 📊Output Visuals
-![Return](outputs/Return-Breakdown)  
+![Return](Outputs/Return-Breakdown.png)  
 - Design choice: Horizontal bar chart for visual comparism of stocks
 - Data organisation: Sorted stocks by descending order for improved readability
 - Insights gained: NRG, followed by PLTR led all stocks in total return, driven by strong price growth. However, strong price growth does not guarantee a good buy. Investors needs to evalaute internal performance as well as external risk factors and valuation metrics before making any investment decision.
