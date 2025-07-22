@@ -3,7 +3,7 @@
 ![Dashboard](Outputs/Dashboard.gif)  
 
 ## Overview
-This python-powered interactive dashboard was built to analyze **S&P 500 stock performance in H1 2025**, using real-time data from Yahoo Finance and Dividend Aristocrats. Includes strategy segmentation, custom scoring, risk-return visulaization, and performance snapshots.  
+This python-powered interactive dashboard was built to analyze **S&P 500 stock performance in H1 2025**, using real-time data from Yahoo Finance and Dividend Aristocrats. Includes strategy segmentation, custom scoring, risk-return visualization, and performance snapshots.  
 
 ## Dashboard File  
 My final dashboard is in [Stock-Performance-Dashboard](outputs/Dashboard.pdf)  
@@ -29,7 +29,7 @@ To provide investors with a clear, data-driven view of how different stocks perf
 - **Jupyter Notebook** (Exploratory analysis)
 - **Git & GitHub** (Version control)
 
-## 📊Visual Insights
+## Visual Insights
 
 ### Return Breakdown
 
@@ -54,12 +54,12 @@ def assign_strategy(row):
 ```
 
 ### Strategy Selection Criteria & Explanation
-This logic dynamically classifies stocks into investment strategies - growth focused (capital growth), dividend focused (dividend income) or balanced (a mix of both), based on return and dividend yield thresholds. 
+This logic dynamically classifies stocks into investment strategies - growth focused (capital growth), income focused (dividend income) or balanced (a blend of both), based on return and dividend yield thresholds. 
 
 ✅ Income-Focused (Dividend Income)
 - Criteria: Member of the dividend aristocrats index.
 
-- Explanation: These are high quality dividend paying stocks with a long history of increasing payouts, ideal for income seeking investors.
+- Explanation: These are high quality dividend paying stocks with a 25+ year history of increasing payouts, ideal for income seeking investors.
 
 ✅ Growth-Focused (Capital Growth)
 - Criteria:
@@ -91,9 +91,9 @@ This helps segment top-performing stocks according to distinct investor goals, a
 
 ![Returns](Outputs/Best-Performers-Scoring-Model.png)
 
-- Design choice: Horizontal bar chart for intuitive comparison of top 10 stocks ranked by my custom scoring model, that blends key performance factors including return, dividend strength, risk, liquidity, quality(ROE), and value(P/E ratio), into a single composite score.
+- Design choice: Horizontal bar chart for intuitive comparison of top 10 stocks ranked by my custom scoring model, that blends key performance indicators including return, dividend strength, risk, liquidity, quality(ROE), and value(P/E ratio), into a single composite score.
 
-- Insight Gained: HCA ranked highest in the custom scoring model, marking it as a strong all rounder. Ford (F) and CVS followed closely, indication solid balance across return, dividend, risk and performance metrics.
+- Insight Gained: HCA ranked highest in the custom scoring model, marking it as a strong all rounder. Ford (F) and CVS followed closely, indicating solid balance across return, dividend, risk and performance metrics.
 
 
 ### Scoring Model Weights
@@ -104,7 +104,7 @@ This helps segment top-performing stocks according to distinct investor goals, a
 
 - Insight Gained: The scoring model places the highest emphasis on **Quality (25%)** and **Growth (20%)**, indicating a priority on strong fundamentals and upward momentum. Lower weights for **Liquidity (10%)** and other metrics suggest a balanced yet performance driven approach for ranking stocks.
 
-### Custom Scoring Logic
+### Custom Scoring Model
 
 ```
 def normalize(series, inverse=False):
@@ -128,7 +128,8 @@ performers["Final Score"] = (
     0.10 * performers["Score_Liquidity"]
 )
 ```
-Weighted Score = Quality*0.25 + Growth*0.20 + Value*0.15 + Yield*0.15 + Stability*0.15 + Liquidity*0.10  
+Scoring logic used to evaluate each stock.
+Weighted Score = Quality *0.25* + Growth *0.20* + Value *0.15* + Yield *0.15* + Stability *0.15* + Liquidity *0.10*  
 
 ### Why each metric matters
 
@@ -145,5 +146,9 @@ Weighted Score = Quality*0.25 + Growth*0.20 + Value*0.15 + Yield*0.15 + Stabilit
 - Liquidity: Ensures the stock is easily tradable without major price swings.
 
 ## 📝Conclusion
+
+This project goes beyond just tracking stock performance, it empowers investors with clear, data-driven insights tailored to specific investment goals.
+
+This solution is not only scalable and reproducible, but also adaptable for portfolio optimization, performance monitoring and future market cycles.
 
 
