@@ -6,7 +6,7 @@
 This python-powered interactive dashboard was built to analyze **S&P 500 stock performance in H1 2025**, using real-time data from Yahoo Finance and Dividend Aristocrats. Includes strategy segmentation, custom scoring, risk-return visualization, and performance snapshots.  
 
 ## Dashboard File  
-My final dashboard is in [Stock-Performance-Dashboard](outputs/Dashboard.pdf)  
+My final dashboard is in [Stock-Performance-Dashboard](Outputs/Dashboard..pdf)  
 
 ## Objective
 
