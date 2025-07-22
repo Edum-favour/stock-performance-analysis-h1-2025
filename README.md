@@ -37,7 +37,7 @@ To provide investors with a clear, data-driven view of how different stocks perf
 
 - Design choice: Horizontal bar chart for intuitive comparison of price and dividend returns side by side. The highlighted chart spotlights stocks in the  **Capital Growth** strategy, making it easy to assess return potential across high growth picks.
 
-- Insight Gained: NRG, followed by PLTR led all stocks in total return, driven by strong price growth. However, strong price growth does not guarantee a good buy. Investors need to evalaute internal performance as well as external risk factors and valuation metrics before making any investment decision.
+- Insight Gained: NRG, followed by PLTR led all stocks in total return, driven by strong price growth. However, strong price growth does not guarantee a good buy. Investors need to evaluate internal performance as well as external risk factors and valuation metrics before making any investment decision.
 
 ### Strategy Classification Logic
 ```
@@ -129,7 +129,7 @@ performers["Final Score"] = (
 )
 ```
 Scoring logic used to evaluate each stock.
-Weighted Score = Quality *0.25* + Growth *0.20* + Value *0.15* + Yield *0.15* + Stability *0.15* + Liquidity *0.10*  
+Weighted Score = Quality *0.25* + Growth *0.20* + Value *0.15* + Yield *0.15* + Stability *0.15* + Liquidity *0.10*.  
 
 ### Why each metric matters
 
@@ -139,7 +139,7 @@ Weighted Score = Quality *0.25* + Growth *0.20* + Value *0.15* + Yield *0.15* + 
 
 - Value: Is a measure of it's Price to Earnings (P/E) ratio. It helps identify **undervalued** and **overvalued** stocks, priced lower or above their true worth. A low P/E may suggest a bargain opportunity, while a high P/E could indicate either overvaluation or strong growth expectations.
   
-- Yield: Shows how much a a company pays out in dividends relative to its stock price.
+- Yield: Shows how much a company pays out in dividends relative to its stock price.
   
 - Stability: It protects portfolios from sharp downturns and appeals to investors with lower risk tolerance.
   
