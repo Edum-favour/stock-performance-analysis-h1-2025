@@ -35,7 +35,7 @@ To provide investors with a clear, data-driven view of how different stocks perf
 
 ![Return](Outputs/Best-Performers-Return-Breakdown.png)  
 
-- Design choice: Horizontal bar chart for intuitive comparison of price and dividend returns side by side. The highlighted chart spotlights the top performing stocks across all three strategy, making it easy to assess return potential among high growth picks.
+- Design choice: Horizontal bar chart for intuitive comparison of price and dividend returns side by side. The highlighted chart spotlights the top performing stocks across all three strategies, making it easy to assess return potential among high growth picks.
 
 - Insight Gained: NRG, followed by PLTR led all stocks in total return, driven by strong price growth. However, strong price growth does not guarantee a good buy. Investors need to evaluate internal performance as well as external risk factors and valuation metrics before making any investment decision.
 
