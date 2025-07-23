@@ -149,6 +149,10 @@ Weighted Score = Quality *0.25* + Growth *0.20* + Value *0.15* + Yield *0.15* + 
 
 This dashboard isn't just an analytics project, it's a structured guide built for investors who already understand the stock market matrix.
 
-That said, no dashboard replaces due diligence. Behind every high score lies a business with real operations and risks. Investors should still conduct thorough research, reviewing detailed financial statements, assessing internal efficiency, understanding external risk factors and validating valuation metrics before making any decisions.
+Investors with high to moderate risk tolerance can explore the top performing stocks based on the return breakdown chart, selecting picks that align with your investment goal. 
+
+However, more risk-averse investors can explore top stocks in the custom scoring model. These aren't just ranked by return, they are also evaluated for risk, stability, value and overall performance.
+
+That said, no dashboard replaces due diligence. Behind every high score lies a business with real operations and risks. Investors should still conduct thorough research, reviewing detailed financial statements, assessing internal efficiency, understanding external risk factors and validating valuation metrics before making any investment  decisions.
 
 
