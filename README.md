@@ -147,8 +147,8 @@ Weighted Score = Quality *0.25* + Growth *0.20* + Value *0.15* + Yield *0.15* + 
 
 ## 📝Conclusion
 
-This project goes beyond just tracking stock performance, it empowers investors with clear, data-driven insights tailored to specific investment goals.
+This dashboard isn't just an analytics project, it's a structured guide built for investors who already understand the stock market matrix.
 
-This solution is not only scalable and reproducible, but also adaptable for portfolio optimization, performance monitoring and future market cycles.
+That said, no dashboard replaces due diligence. Behind every high score lies a business with real operations and risks. Investors should still conduct thorough research, reviewing detailed financial statements, assessing internal efficiency, understanding external risk factors and validating valuation metrics before making any decisions.
 
 
