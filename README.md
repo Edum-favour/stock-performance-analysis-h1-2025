@@ -149,7 +149,7 @@ Weighted Score = Quality *0.25* + Growth *0.20* + Value *0.15* + Yield *0.15* + 
 
 This dashboard isn't just an analytics project, it's a structured guide built for investors who already understand the stock market matrix.
 
-Investors with high to moderate risk tolerance can explore the top performing stocks based on the return breakdown chart, selecting picks that align with your investment goal. 
+Investors with high to moderate risk tolerance can explore the top performing stocks based on the return breakdown chart, selecting picks that align with their investment goal. 
 
 However, more risk-averse investors can explore top stocks in the custom scoring model. These aren't just ranked by return, they are also evaluated for risk, stability, value and overall performance.
 
