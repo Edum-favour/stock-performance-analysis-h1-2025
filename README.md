@@ -18,8 +18,8 @@ To provide investors with a clear, data-driven view of how different stocks perf
 
 ## Key Features
 
-- ✅ Dynamic scoring model for evaluating stocks across multiple investment goals
-- 📊 Visualization of top 10 stocks in each category
+- ✅ Dynamic scoring model for evaluating stocks across multiple metrics
+- 📊 Visualization of top 10 stocks in each strategy
 - 🗃️ Clean project structure with reproducible code and documentation
 
 ## Tools & Libraries
@@ -37,7 +37,7 @@ To provide investors with a clear, data-driven view of how different stocks perf
 
 - Design choice: Horizontal bar chart for intuitive comparison of price and dividend returns side by side. The highlighted chart spotlights the top performing stocks across all three strategies, making it easy to assess return potential among high growth picks.
 
-- Insight Gained: NRG, followed by PLTR led all stocks in total return, driven by strong price growth. However, strong price growth does not guarantee a good buy. Investors need to evaluate internal performance as well as external risk factors and valuation metrics before making any investment decision.
+- Key Insight: NRG, followed by PLTR led all stocks in total return, driven by strong price growth. However, strong price growth does not guarantee a good buy. Investors need to evaluate internal performance as well as external risk factors and valuation metrics before making any investment decision.
 
 ### Strategy Classification Logic
 ```
@@ -84,7 +84,7 @@ This helps segment top-performing stocks according to distinct investor goals, a
 
 - Design choice: Scatter plot with bubble size to visualize the trade-off between risk (volatility) and return, helping investors quickly spot smart buys like high return, low volatility stocks.
 
-- Insight Gained: Some stocks like NRG offer high returns with relatively low volatility, signaling strong performance with manageable risk, potential smart buys. On the other hand, stocks like SMCI show high volatility with modest returns, indicating higher uncertainty. This visualization helps investors weigh the trade-off between return and stability, making it easier to identify well balanced opportunities versus risk heavy plays.
+- Key Insight: Some stocks like NRG offer high returns with relatively low volatility, signaling strong performance with manageable risk, potential smart buys. On the other hand, stocks like SMCI show high volatility with modest returns, indicating higher uncertainty. This visualization helps investors weigh the trade-off between return and stability, making it easier to identify well balanced opportunities versus risk heavy plays.
 
 
 ### Best Performers (Scoring Model)
@@ -93,16 +93,16 @@ This helps segment top-performing stocks according to distinct investor goals, a
 
 - Design choice: Horizontal bar chart for intuitive comparison of top 10 stocks ranked by my custom scoring model, that blends key performance indicators including return, dividend strength, risk, liquidity, quality(ROE), and value(P/E ratio), into a single composite score.
 
-- Insight Gained: HCA ranked highest in the custom scoring model, marking it as a strong all rounder. Ford (F) and CVS followed closely, indicating solid balance across return, dividend, risk and performance metrics.
+- Key Insight: HCA ranked highest in the custom scoring model, marking it as a strong all rounder. Ford (F) and CVS followed closely, indicating solid balance across return, dividend, risk and performance metrics.
 
 
 ### Scoring Model Weights
 
 ![ModelWeight](Outputs/Scoring-Model-Weight.png)
 
-- Design choice: Donurt chart was used to visually communicate how much weight each metric contributes to the overall stock performance score.
+- Design choice: Donut chart was used to visually communicate how much weight each metric contributes to the overall stock performance score.
 
-- Insight Gained: The scoring model places the highest emphasis on **Quality (25%)** and **Growth (20%)**, indicating a priority on strong fundamentals and upward momentum. Lower weights for **Liquidity (10%)** and other metrics suggest a balanced yet performance driven approach for ranking stocks.
+- Key Insight: The scoring model places the highest emphasis on **Quality (25%)** and **Growth (20%)**, indicating the model favors companies with strong profitability and growth potential over speculative plays. Lower weights for **Liquidity (10%)** and other metrics suggest a balanced yet performance driven approach for ranking stocks.
 
 ### Custom Scoring Model
 
@@ -149,10 +149,10 @@ Weighted Score = Quality *0.25* + Growth *0.20* + Value *0.15* + Yield *0.15* + 
 
 This dashboard isn't just an analytics project, it's a structured guide built for investors who already understand the stock market matrix.
 
-Investors with high to moderate risk tolerance can explore the top performing stocks based on the return breakdown chart, selecting picks that align with their investment goal. 
+Investors with moderate to high risk tolerance can explore the top performing stocks based on the return breakdown chart, selecting picks that align with their investment goal. 
 
-However, more risk-averse investors can explore top stocks in the custom scoring model. These aren't just ranked by return, they are also evaluated for risk, stability, value and overall performance.
+However, more risk-averse investors can explore top stocks from the custom scoring model, which goes beyond returns to evaluate risk, stability, value and overall performance.
 
-That said, no dashboard replaces due diligence. Behind every high score lies a business with real operations and risks. Investors should still conduct thorough research, reviewing detailed financial statements, assessing internal efficiency, understanding external risk factors and validating valuation metrics before making any investment  decisions.
+That said, no dashboard replaces due diligence. Behind every high score lies a real business with operations, opportunities and risks. Investors should still review financials, validate assumptions, and assess market conditions before making investment decisions.
 
 
